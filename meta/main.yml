@@ -1,6 +1,6 @@
 galaxy_info:
   author: Tom Emerson
-  role_name: php74_remi
+  role_name: php80_remi
   description: Ansible role for installing php 8.0 on RHEL/CentOs from the Remi repository
   company: Cyberitas Technologies, LLC
   license: license (MIT)
