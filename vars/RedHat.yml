@@ -1,0 +1,38 @@
+---
+__php_modules:
+  - php
+  - php-bcmath
+  - php-cli
+  - php-common
+  - php-devel
+  - php-gd
+  - php-imap
+  - php-json
+  - php-ldap
+  - php-mbstring
+  - php-mysqlnd
+  - php-opcache
+  - php-pdo
+  - php-pdo-dblib
+  - php-pecl-apcu
+  - php-pecl-imagick
+  - php-pecl-mcrypt
+  - php-pecl-memcache
+  - php-pecl-zip
+  - php-process
+  - php-soap
+  - php-xml
+  - php-xmlrpc
+  - ImageMagick
+
+__web_service: "httpd"
+
+__conf_paths:
+  - /etc
+
+__conf_paths_additional:
+  - /etc/php.d
+
+__php_repo: "remi"
+
+__php_ini_path: /etc/php.ini

@@ -1,0 +1,8 @@
+---
+# The following default values for variables in templates/php.ini.j2
+# When not overridden in YAML files in either host_vars or group_vars
+php_upload_max_filesize: 48M
+php_post_max_size: 48M
+php_memory_limit: 256M
+php_timezone: UTC
+
